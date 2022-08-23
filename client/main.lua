@@ -334,9 +334,7 @@ Citizen.CreateThread(function()
         end
     end
  end)
-
 -- Threads
-
 CreateThread(function()
     if isLoggedIn then
         QBCore.Functions.TriggerCallback('qb-diving:server:GetDivingConfig', function(config, area)
